@@ -1,5 +1,4 @@
-import Game from "./Game";
-
+import Game from "./game/Game";
 let canvas = document.querySelector("#my-canvas");
 let ctx = canvas.getContext("2d");
 ctx.canvas.width = window.innerWidth;

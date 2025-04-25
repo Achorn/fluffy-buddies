@@ -1,9 +1,9 @@
-import { load } from "../objects/assetLoader";
+import { load } from "../../engine/assetLoader";
 import State from "./State";
 
 let assetsToLoad = [
-  ["albumCover", "../../assets/blok.jpg"],
-  ["music", "../../assets/josh-song.mp3"],
+  ["albumCover", "./blok.jpg"],
+  ["music", "./josh-song.mp3"],
 ];
 
 export default class LoadingState extends State {

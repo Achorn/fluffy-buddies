@@ -1,5 +1,6 @@
-import { assets } from "../objects/assetLoader";
+import { assets } from "../../engine/assetLoader";
 import State from "./State";
+
 export default class LevelOne extends State {
   constructor() {
     super();
